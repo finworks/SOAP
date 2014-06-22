@@ -5,7 +5,7 @@
 		"localHost" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "dkh 04/03/2009 14:29",
+	"commentStamp" : "",
 	"instvars" : [
 		"host",
 		"port" ],

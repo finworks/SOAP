@@ -1,4 +1,4 @@
 accessing
 host
 
-	^self reqURI hostname
+	^self reqURI host

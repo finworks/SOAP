@@ -6,7 +6,7 @@
 		"CrLf",
 		"HTTPProxyPort",
 		"HTTPProxyServer" ],
-	"commentStamp" : "dkh 04/03/2009 14:29",
+	"commentStamp" : "",
 	"instvars" : [
 		"soapEnvelopeString",
 		"headerString",

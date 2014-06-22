@@ -1,4 +1,4 @@
 initialize-release
 parseURL: anUrlString 
 
-	reqURI := HyURI fromStream: anUrlString readStream
+	reqURI := ZnUrl fromString: anUrlString

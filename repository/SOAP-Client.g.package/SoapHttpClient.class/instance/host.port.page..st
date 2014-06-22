@@ -1,12 +1,12 @@
 initialize-release
 host: hostnameString port: portNumberInteger page: pageString 
 	
-	reqURI := HyURI new.
+	reqURI := ZnUrl new.
 	reqURI
-		hostname: hostnameString;
-		portNumber: portNumberInteger;
-		path: ((pageString isNil
+		host: hostnameString;
+		port: portNumberInteger;
+		parsePath: (ReadStream on: ((pageString isNil
 					or: [pageString isEmpty])
 				ifTrue: ['/']
-				ifFalse: [pageString]);
-		scheme: 'http'.
+				ifFalse: [pageString]));
+		scheme: #http.
